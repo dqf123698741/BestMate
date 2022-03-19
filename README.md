@@ -5,5 +5,4 @@ Group members:
 
 Qiangfei Dai - 480002202
 
-...
 Thanks for visiting.
