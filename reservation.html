@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Reservation Form</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" value="" autocomplete="on"><br><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" value="" autocomplete="on"><br><br>
+  <label for="pnumber">Phone Number:</label><br>
+  <input type="tel" id="pnumber" name="pnumber" value="" autocomplete="on"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="" autocomplete="on"><br><br>
+  
+  <label for="sdate">Activities:</label><br>
+  <input list="activities" name="activities">
+  <datalist id="activities">
+    <option value="Training">
+    <option value="Caring">
+  </datalist><br><br>
+  
+  <label for="dur">Duration:</label><br>
+  <input type="number" id="dur" name="dur" min="0" max="12">
+  <input type="number" id="dur" name="dur" min="0" max="7">
+  <input type="number" id="dur" name="dur" min="1" max="6">
+  <br><br>
+  <label for="sdate">Date:</label><br>
+  <input type="date" id="sdate" name="sdate" min="2022-05-01" max="2023-01-01">
+  <p>Note that date represents when you brought your pet to our hotel</p>
+  <label for="mess">Message:</label><br>
+  <input type="text" id="mess" name="mess" value="" width="x20p"><br>
+  <br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+
+</body>
+</html>
