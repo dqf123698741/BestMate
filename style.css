@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: "Arial"
+}
+
+header {
+	height: auto;
+	background: #227E7B;
+	width: auto;
+	margin: 0 auto
+}
+
+.logo {
+	float: left;
+	height: 60px;
+	width: 200px;
+	line-height: 60px;
+	font-size: 18px;
+	text-align: center
+}
+
+nav {
+	float: left;
+	height: 60px;
+	width: 600px;
+}
+
+ul {
+	list-style: none
+}
+
+nav li {
+	float: left;
+	line-height: 60px;
+	height: 60px;
+	margin: 0px 10px;
+	padding: 0px 10px;
+	text-align: center;
+	position: relative;
+	font-size: 16px
+}
+
+nav li a {
+	color: #FFF;
+	text-decoration: none
+}
+
+.banner {
+	width: auto;
+	margin: 0 auto;
+	position: relative
+}
+
+.banner img {
+	height: auto;
+	width: 100%;
+}
+
+.snav {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	border: 1px solid #CCC;
+	display: none;
+	z-index: 999
+}
+
+.snav p {
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 6px;
+	background: #FFF;
+	color: #333
+}
+
+nav li:hover .snav {
+	display: block
+}
+
+.snav p a {
+	color: #333!important
+}
+
+button.a1 {
+	width: 100px;
+	height: 28px;
+	background: #D6E48C;
+	color: #333;
+	border-radius: 4px;
+	float: right;
+	margin: 16px 20px;
+	border: none
+}
+
+.wel {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 150px;
+	font-size: 36px;
+	color: #FFF;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold
+}
+
+.ser {
+	position: absolute;
+	background: #D6E48C;
+	color: #FFF;
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	width: 120px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 220px;
+	margin: auto;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}
