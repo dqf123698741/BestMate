@@ -127,3 +127,32 @@ button.a1 {
 	border: 1px solid #CCC;
 	border-radius: 4px;
 }
+
+.container {
+
+}
+
+.feedbackform {
+  background: #87cefa;
+  width:350px;
+  height:400px;
+  left:35%;
+  top:10%;
+  line-height: 40px;
+  position: absolute;
+  border:none;
+}
+
+.feedbackform h1 {
+  text-align: center;
+}
+
+.feedbackform input {
+  text-align: center;
+  margin: auto;
+}
+
+.feedbackform textarea {
+  margin: auto;
+  width:90%;
+}
