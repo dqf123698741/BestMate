@@ -156,3 +156,112 @@ button.a1 {
   margin: auto;
   width:90%;
 }
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 20px 0 12px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+  color: orange;
+}
+
+.item {
+  margin-bottom: 60px;
+}
+
+.item:last-child {
+  margin: 0;
+}
+
+.item-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item h2 {
+  margin-bottom: 8px;
+  color: #5d6065;
+}
+
+.table {
+  width: 48.5%;
+  margin-top: 15px;
+}
+
+.item table {
+  width: 100%;
+  border: 1px solid #000000;
+  text-align: center;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.item .table p {
+  word-break: break-word;
+}
+
+.table .p {
+  margin-top: 20px;
+}
+
+.table .p2 {
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.item table tr:nth-child(2n - 1) {
+  background: #eee;
+}
+
+.item td {
+  width: 50%;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+
+.content {
+  width: 48.5%;
+  color: #333;
+}
+
+.content h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.content .text-wrapper {
+  width: 100%;
+  padding-left: 23px;
+  box-sizing: border-box;
+}
+
+.text-wrapper .text {
+  margin-bottom: 12px;
+}
+
+.text-wrapper .text:last-child {
+  margin: 0;
+}
+
+.text-wrapper .text p {
+  width: 100%;
+
+  font-size: 16px;
+  word-break: break-word;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
