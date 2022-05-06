@@ -35,11 +35,11 @@ ul {
 }
 
 .picture {
-	border: 2px;
+	border: 3px;
 }	
 	
 .picture img {
-	width: 611px; 
+	width: 610px; 
 	height: 400px;
 	float: center;
 }
