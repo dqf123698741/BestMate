@@ -36,10 +36,11 @@ ul {
 
 .picture {
 	border: 2px;
-}
+}	
 	
 .picture img {
-	
+	width: 500px; 
+	height: 300px;
 	float: center;
 }
 nav li {
