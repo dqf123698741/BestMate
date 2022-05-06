@@ -32,42 +32,48 @@
     <button class="a1"><a href="Account.html">Account</a></button>
     <div style="clear:both"></div>
   </header>
+  
+  
+  <div class="wrapper">
+    <div class="title">
+      <h1>Reservation Form</h1>
+    </div>
+    <pre> </pre>
+    <pre> </pre>
 
+    <form action="/action_page.php">
+      <label for="fname">First Name<span style="color:red;">*</span>:</label><br>
+      <input type="text" id="fname" name="fname" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
+      <label for="lname">Last Name<span style="color:red;">*</span>:</label><br>
+      <input type="text" id="lname" name="lname" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
+      <label for="pnumber">Phone Number<span style="color:red;">*</span>:</label><br>
+      <input type="tel" id="pnumber" name="pnumber" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
+      <label for="email">Email<span style="color:red;">*</span>:</label><br>
+      <input type="email" id="email" name="email" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
 
-<h2>Reservation Form</h2>
+      <label for="sdate">Activities<span style="color:red;">*</span>:</label><br>
+      <input list="activities" name="activities" style="height:30px;width:600px;">
+      <datalist id="activities">
+        <option value="Training">
+        <option value="Caring">
+      </datalist><br><br>
 
-<form action="/action_page.php">
-  <label for="fname">First Name<span style="color:red;">*</span>:</label><br>
-  <input type="text" id="fname" name="fname" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
-  <label for="lname">Last Name<span style="color:red;">*</span>:</label><br>
-  <input type="text" id="lname" name="lname" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
-  <label for="pnumber">Phone Number<span style="color:red;">*</span>:</label><br>
-  <input type="tel" id="pnumber" name="pnumber" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
-  <label for="email">Email<span style="color:red;">*</span>:</label><br>
-  <input type="email" id="email" name="email" value="" style="height:30px;width:600px;" autocomplete="on"><br><br>
+      <label for="dur">Duration<span style="color:red;">*</span>:</label><br>
+      <input type="number" id="dur" name="dur" min="0" max="12" style="height:30px;width:145px;"><span>Months</span>
+      <input type="number" id="dur" name="dur" min="0" max="7" style="height:30px;width:145px;"><span>Weeks</span>
+      <input type="number" id="dur" name="dur" min="1" max="6" style="height:30px;width:145px;"><span>Days</span>
+      <br><br>
+      <label for="sdate">Date<span style="color:red;">*</span>:</label><br>
+      <span style="font-size:80%;">Note that date represents when you brought your pet to our hotel</span><br>
+      <input type="date" id="sdate" name="sdate" min="2022-05-01" max="2023-01-01" style="height:30px;width:145px;"><br><br>
 
-  <label for="sdate">Activities<span style="color:red;">*</span>:</label><br>
-  <input list="activities" name="activities" style="height:30px;width:600px;">
-  <datalist id="activities">
-    <option value="Training">
-    <option value="Caring">
-  </datalist><br><br>
+      <label for="mess">Message:</label><br>
+      <textarea type="text" id="mess" name="mess" value="" style="height:100px;width:600px; text-align:head"></textarea>
+      <br><br>
 
-  <label for="dur">Duration<span style="color:red;">*</span>:</label><br>
-  <input type="number" id="dur" name="dur" min="0" max="12" style="height:30px;width:145px;"><span>Months</span>
-  <input type="number" id="dur" name="dur" min="0" max="7" style="height:30px;width:145px;"><span>Weeks</span>
-  <input type="number" id="dur" name="dur" min="1" max="6" style="height:30px;width:145px;"><span>Days</span>
-  <br><br>
-  <label for="sdate">Date<span style="color:red;">*</span>:</label><br>
-  <span style="font-size:80%;">Note that date represents when you brought your pet to our hotel</span><br>
-  <input type="date" id="sdate" name="sdate" min="2022-05-01" max="2023-01-01" style="height:30px;width:145px;"><br><br>
-
-  <label for="mess">Message:</label><br>
-  <textarea type="text" id="mess" name="mess" value="" style="height:100px;width:600px; text-align:head"></textarea>
-  <br><br>
-
-  <input type="submit" value="Submit" style="height:30px;width:80px;">
-</form>
-
-</body>
+      <input type="submit" value="Submit" style="height:30px;width:80px;">
+    </form>
+    
+  </div>
+ </body>
 </html>
