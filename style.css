@@ -128,9 +128,29 @@ button.a1 {
 	border-radius: 4px;
 }
 
-.container {
-
+.videot {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 359px;
+	font-size: 36px;
+	color: #FFF;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold
 }
+
+.siteVideo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 400;
+	margin: auto;
+	text-align: center;
+  display: block;
+}
+
 
 .feedbackform {
   background: #87cefa;
